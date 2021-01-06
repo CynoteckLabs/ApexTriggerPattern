@@ -21,7 +21,7 @@ For trigger implementation of an sObject, follow these steps
 2. Create a record in Trigger Config (custom setting) specifying
     * Name = Sobject API Name (for e.g. **Account** or **Invoice__c** )
     * Active ? = TRUE
-    * Apex Handler = <Name of class created in step 1>
+    * Apex Handler = <Name of class created in step 2>
 
 ## Trigger Handler Design
 Apex Trigger Handler class exposes functions to handle individual trigger execution contexts. It can help in:
